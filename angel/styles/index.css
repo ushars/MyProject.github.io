@@ -1,0 +1,92 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    background-color: #eeeff1;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #11a8bb;
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+}
+.header .rightPicture{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    right:0;
+    background: url("../image/arrow_right-consult-white.png") no-repeat;
+    background-size: 40px;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+}
+.main nav{
+    width: 100%;
+    height:400px;
+}
+.main nav a{
+    width: 50%;
+    height: 115px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    color:#000;
+    background-color: #fff;
+    line-height: 115px;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+
+}
+.main nav a img,.main nav a span{
+    vertical-align: middle;
+}
+.main nav a img{
+    width: 54px;
+}
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    border:1px solid #ddd;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding-top: 5px;
+}
+.footer a{
+    width: 33.33333333%;
+    height: 50px;
+    float: left;
+    text-decoration: none;
+    color: #808080;
+}
+.footer a .checked{
+    color: #11a8bb;
+}
+.footer a img{
+    width: 20px;
+}
+.footer a span{
+    text-align: center;
+    display: block;
+}

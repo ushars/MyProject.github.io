@@ -1,0 +1,59 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 858970 */
+  src: url('//at.alicdn.com/t/font_858970_a5k199z0vjc.eot');
+  src: url('//at.alicdn.com/t/font_858970_a5k199z0vjc.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_858970_a5k199z0vjc.woff') format('woff'),
+  url('//at.alicdn.com/t/font_858970_a5k199z0vjc.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_858970_a5k199z0vjc.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wode:before { content: "\e718"; }
+
+.icon-duihuaqipaodown:before { content: "\e676"; }
+
+.header i.iconfont{
+  color: #aaa;
+}
+.nav-search i.iconfont{
+  color:#fff;
+  font-size: 20px;
+}
+.footer-top>ul>li i{
+  color: #fff;
+}
+.con-box i{
+  margin-left: 10px;
+  color: #000;
+  font-size: 30px;
+}
+.con-other li:nth-child(2) i{
+  color: #1296db;
+}
+.con-other li:nth-child(3) i{
+  color: #0db157;
+}
+.con-other li:nth-child(4) i{
+  color: #333;
+}
+.footer-bottom .footer-left i{
+  color:rgba(255, 166, 0, 0.349);
+}
+.common-tab p i{
+  color: #000 !important;
+  margin-right: 5px;
+}
+.detail-right-con span i{
+  color: #000;
+}
+.detail-right-con p i{
+  color: #ffb500;
+}

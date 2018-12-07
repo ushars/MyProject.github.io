@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阿迪达斯网站</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/flash.css">
+    <link rel="stylesheet" href="css/flash-small.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-box">
+            <div class="header-top-box">
+                <ul>
+                    <li><a>订单追踪</a></li>
+                    <li><a>邮件订阅</a></li>
+                    <li><a>在线客服 <i class="iconfont">&#xe676;</i></a></li>
+                    <li id="user"><a>已登录</a></li>
+                    <li id="signIn"><a href="html/signin.html">登陆 <i class="iconfont">&#xe718;</i></a></li>
+                    <li id="exit"><a>注销用户</a></li>
+                </ul>
+            </div>
+            <!-- 导航栏 -->
+            <nav>
+                <h1><a href="index.html"><img src="images/logo.png"></a></h1>
+                <ul class="nav-tab">
+                    <li>
+                        <a>男子</a>
+                        <div class="boy"></div>
+                    </li>
+                    <li>
+                        <a>女子</a>
+                        <div class="girl"></div>
+                    </li>
+                    <li>
+                        <a>童装</a>
+                        <div class="children"></div>
+                    </li>
+                    <span class="line"></span>
+                    <li>
+                        <a>运动</a>
+                        <div class="sports">
+
+                        </div>
+                    </li>
+                    <li>
+                        <a>品牌</a>
+                        <div class="brand"></div>
+                    </li>
+                    <span class="line"></span>
+                    <li>
+                        <a href="html/customize.html">miadidas定制</a>
+                        <div class="customized"></div>    
+                    </li>
+                </ul>
+                <div class="nav-search">
+                    <form>
+                        <i class="iconfont search-btn">&#xe623;</i>
+                        <input class="search" type="search" placeholder="搜索">
+                        <i class="iconfont">&#xe61d;</i>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <!-- 自适应轮播图 -->
+        <section class="scroll">
+            <div class="scroll-flash-wrapper flash-wrapper">
+                <div class="img-box">
+                    <img src="images/kv-pc-ultraboost.jpg" alt="图片加载失败...">
+                    <img src="images/kv-pc-harden.jpg" alt="图片加载失败...">
+                    <img src="images/1920-630-prophere-wje.jpg" alt="图片加载失败...">
+                    <img src="images/1920-630-neo.jpg" alt="图片加载失败...">
+                    <img src="images/kv-pc-ultraboost.jpg" alt="图片加载失败...">
+                    <img src="images/kv-pc-harden.jpg" alt="图片加载失败...">
+                </div>
+                <div class="btn-box">
+                    <span class="btn prev"> < </span>
+                    <span class="btn next"> > </span>
+                </div>
+                <div class="idot-box">
+                    <span class="idot selected"></span>
+                    <span class="idot"></span>
+                    <span class="idot"></span>
+                    <span class="idot"></span>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="feature">
+        <!-- <div class="feature-box">
+            <div><a><img src="images/470-264-adicolor-lh.jpg"></a></div>
+            <p><a>adicolor</a></p>
+            <p><a>立即选购</a></p>
+        </div>
+            -->
+        </section>
+        <section class="flash-sm">
+            <h1>本月主推</h1>
+            <div class="flash-sm-box">
+                <div class="wrapper month">
+                    <div class="image-box">
+                        <section>
+                            <img src="./images/flash-sm/month1.jpg" alt="图片显示失败...">
+                            <p>Harden Vol. 3 场上篮球鞋</p>
+                            <p>￥1,399</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/month2.jpg" alt="图片显示失败...">
+                            <p>UltraBOOST All Terrain 跑步鞋</p>
+                            <p>￥1,699</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/month3.jpg" alt="图片显示失败...">
+                            <p>PROPHERE 经典鞋</p>
+                            <p>￥1,099</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/month4.jpg" alt="图片显示失败...">
+                            <p>PROPHERE W 经典鞋</p>
+                            <p>￥1,099</p>
+                        </section>
+                    </div>
+                    <div class="image-box">
+                        <section>
+                            <img src="./images/flash-sm/month5.jpg" alt="图片显示失败...">
+                            <p>KAVAL OTH HOODY 套头衫</p>
+                            <p>￥899</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/month6.jpg" alt="图片显示失败...">
+                            <p>Hardshell JKT 外套茄克</p>
+                            <p>￥1,099</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/month7.jpg" alt="图片显示失败...">
+                            <p>Helionic Ho Jkt 户外羽绒服</p>
+                            <p>￥999</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="pagenation">
+                    <span class="pagenation-item show"></span>
+                    <span class="pagenation-item"></span>
+                </div>
+                <div class="btn-sm prev-btn"><</div>
+                <div class="btn-sm next-btn">></div>
+            </div>
+        </section>
+        <section class="flash-sm">
+            <h1>本周热卖</h1>
+            <div class="flash-sm-box">
+                <div class="wrapper wrapper-small week">
+                    <div class="image-box">
+                        <section>
+                            <img src="./images/flash-sm/week1.jpg" alt="图片显示失败...">
+                            <p>SUPERSTAR 经典鞋</p>
+                            <p>￥799</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/week2.jpg" alt="图片显示失败...">
+                            <p>PureBOOST DPR 跑步鞋</p>
+                            <p>￥1099</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/week3.jpg" alt="图片显示失败...">
+                            <p>PROPHERE 经典鞋</p>
+                            <p>￥1099</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/week4.jpg" alt="图片显示失败...">
+                            <p>SUPERSTAR 经典鞋</p>
+                            <p>￥799</p>
+                        </section>
+                    </div>
+                    <div class="image-box">
+                        <section>
+                            <img src="./images/flash-sm/week5.jpg" alt="图片显示失败...">
+                            <p>Harden Vol. 3 场上篮球鞋</p>
+                            <p>￥1399</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/week6.jpg" alt="图片显示失败...">
+                            <p>EQT SUPPORT 91/18 经典鞋</p>
+                            <p>￥1499</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/week7.jpg" alt="图片显示失败...">
+                            <p>PROPHERE 经典鞋</p>
+                            <p>￥1099</p>
+                        </section>
+                        <section>
+                                <img src="./images/flash-sm/week8.jpg" alt="图片显示失败...">
+                                <p>YUNG-1 经典鞋</p>
+                                <p>￥1099</p>
+                        </section>
+                    </div>
+                    <div class="image-box">
+                        <section>
+                            <img src="./images/flash-sm/week9.jpg" alt="图片显示失败...">
+                            <p>adidas neo VL COURT 2.0 休闲鞋</p>
+                            <p>￥1000</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/week10.jpg" alt="图片显示失败...">
+                            <p>adidas neo VL COURT 2.0 休闲鞋</p>
+                            <p>￥1000</p>
+                        </section>
+                        <section>
+                            <img src="./images/flash-sm/week11.jpg" alt="图片显示失败...">
+                            <p>Falcon W 经典鞋</p>
+                            <p>￥899</p>
+                        </section>
+                        <section>
+                                <img src="./images/flash-sm/week12.jpg" alt="图片显示失败...">
+                                <p>Superstar J 经典鞋</p>
+                                <p>￥699</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="pagenation">
+                    <span class="pagenation-item pagenation-item-small show"></span>
+                    <span class="pagenation-item pagenation-item-small"></span>
+                    <span class="pagenation-item pagenation-item-small"></span>
+                </div>
+                <div class="btn-sm prev-btn show prev-btn-small"><</div>
+                <div class="btn-sm next-btn next-btn-small">></div>
+            </div>
+        </section>
+    </main>
+    <!-- 尾部 -->
+    <footer class="footer">
+        <div class="footer-top">
+            <ul>
+                <li>联系我们</li>
+                <li><i class="iconfont">&#xe676;</i> 在线客服</li>
+                <li><i class="iconfont">&#xe605;</i> 400-999-5999</li>
+                <li><i class="iconfont">&#xe661;</i> service@adidas.com</li>
+                <li><i class="iconfont">&#xe670;</i> 9:00-22:00</li>
+                <li>订单追踪</li>
+            </ul>
+        </div>
+        <div class="footer-con">
+            <ul class="con-box">
+                <li class="title">产品</li>
+                <li><a href="">鞋类</a></li>
+                <li><a href="">服装</a></li>
+                <li><a href="">配件</a></li>
+                <li><a href="">新品上市</a></li>
+                <li><a href="">全部折扣</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">运动</li>
+                <li><a href="">跑步</a></li>
+                <li><a href="">训练</a></li>
+                <li><a href="">足球</a></li>
+                <li><a href="">篮球</a></li>
+                <li><a href="">户外</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">帮助中心</li>
+                <li><a href="">关于员工</a></li>
+                <li><a href="">尺码表</a></li>
+                <li><a href="">adiCLUB会员</a></li>
+                <li><a href="">门店查询</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">企业社会责任</a></li>
+                <li><a href="">Confirmed app</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">网站政策</li>
+                <li><a href="">使用条款</a></li>
+                <li><a href="">隐私声明</a></li>
+                <li><a href="">物流配送规则</a></li>
+                <li><a href="">退货规则</a></li>
+                <li><a href="">定制和印制服务条款</a></li>
+                <li><a href="">adiCLUB会员规则</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">关注我们</li>
+                <span><a><i class="iconfont">&#xe639;</i></a></span>
+                <span><a><i class="iconfont">&#xe6cd;</i></a></span>
+            </ul>
+            <ul class="con-other">
+                <li>我们接受下列付款方式：</li>
+                <li><a href=""><i class="iconfont">&#xe61a;</i></a></li>
+                <li><a href=""><i class="iconfont">&#xe62f;</i></a></li>
+                <li><a href=""><i class="iconfont">&#xe68f;货到付款</i></a></li>
+            </ul>
+            <ul class="con-other">
+                <li>企业团购热线及邮箱：</li>
+                <li>团购热线：021-2525 6881</li>
+                <li>团购邮箱：adidas.b2b@adidas.com</a></li>
+                <li>（仅限采购金额10万以上）</li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-con">
+                <div class="footer-left com">
+                    <span><i></i>中国 </span>
+                    <span> 隐私声明 </span>
+                    <span> 使用条款 </span>
+                    <span> 网站地图 </span>
+                </div>
+                <div class="footer-right com">
+                        <span> 苏ICP备14048805号-1  </span>
+                        <span><i></i>© 2017 adida </span>
+                        <span><i></i>苏公网安备32059002001401号 </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/flash-small.js"></script>
+    <script src="js/flash-small-sm.js"></script>
+</body>
+</html>

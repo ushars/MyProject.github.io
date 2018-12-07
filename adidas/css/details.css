@@ -1,0 +1,172 @@
+@charset "uft-8";
+.detail-top{
+    width:100%;
+    text-align: center;
+    border-bottom:1px solid #ddd;
+}
+.detail-top span{
+    margin: 10px 20px;
+    display: inline-block;
+    width:20%;
+    font-size:14px;
+    
+}
+.detail-title{
+    width:1000px;
+    padding-left:20px;
+}
+.detail-title span{
+    margin: 10px 5px;
+    display: inline-block;
+    font-size:14px;
+}
+.detail-con-box{
+    width: 100%;
+    background-color: #eceef0;
+}
+.detail-con{
+    margin:0 auto;
+    width:1100px;
+    height: 600px;
+    background-color: #eceef0;
+}
+.detail-left{
+    width:60%;
+    float: left;
+    position: relative;
+}
+.detail-left ul{
+    
+    display: block;
+    width: 50px;
+    height: 300px;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    margin-left: 120px;
+    padding-top:100px;
+}
+.detail-left ul li{
+    margin: 2px 0;
+    width: 100%;
+    height: 50px;
+    border:1px solid #ccc;
+    border-bottom:3px solid rgba(204, 204, 204, 0.479);
+    
+}
+.detail-left ul li.sec-image{
+    border:1px solid #000;
+    border-bottom: 3px solid #000;
+}
+.detail-left ul li img{
+   width: 50px;
+   height: 50px;
+}
+.small-image{
+    position: absolute;
+    right:0;
+    top:0px;
+    width:450px;
+    height: 452px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.mirror {
+    width: 90px;
+    height: 80px;
+    background: #ffffcc;
+    border: 1px solid #ccc;
+    opacity: .2;
+    cursor: move;
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.small-image img{
+    position: absolute;
+    right:0;
+    top:0px;
+    width:450px;
+    height: 450px;
+    display: none;
+}
+.small-img.selected-tab{
+    display: block;
+    
+}
+.detail-right{
+    width: 35%;
+    float: left;
+    padding-left:30px;
+    box-shadow: 0 1px 6px 0 rgba(85, 85, 85, 0.5);
+    height: 500px;
+    position: relative;
+    background-color: #fff;
+}
+.detail-right-con{
+    margin-top: 20px;
+}
+.detail-right-con p{
+    margin-top: 20px;
+}
+.detail-right-con p:nth-of-type(2){
+    color:#888;
+}
+.detail-right-con p:nth-of-type(3){
+    font-weight: bold；
+}
+.detail-right-con h3{
+    font-weight: normal;
+}
+.detail-right-con .secList{
+    margin:20px 0;
+    width: 200px;
+    height: 30px;
+}
+.detail-right-con .secNum{
+    width: 50px;
+    height: 30px;
+}
+.detail-right-con button{
+    margin-top: 20px;
+    outline: none;
+    border:none;
+    width: 80%;
+    height: 40px;
+    color: #fff;
+    background-color: #025f8e;
+    cursor: pointer;
+}
+.detail-right-con button:last-of-type{
+    background-color: #000;
+}
+.detail-right-con span{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 80px;
+    font-size: 14px;
+}
+.big-image{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 400px;
+    height: 490px;
+    overflow: hidden;
+    display: none;
+}
+
+.big-image img{
+    position: absolute;
+    top:0;
+    right:0;
+    display: none;
+}
+.big-image img.selected-tab{
+    display: block;
+}
+.small-image:hover .mirror {
+    /* display: block; */
+}
+

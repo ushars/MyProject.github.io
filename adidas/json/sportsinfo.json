@@ -1,0 +1,38 @@
+[
+    {
+        "tui":"跑步",
+        "img":"banner-edd.jpg",
+        "pro":["跑步鞋","跑步服饰","跑步装备","UltraBOOST","PureBOOST","PureBOOST X","Alpha Bounce"],
+        "chanping":"全部跑步产品"
+        
+    },
+    {
+        "tui":"训练",
+        "img":"170-80-ning.jpg",
+        "pro":["训练鞋","训练服饰","训练装备","Alphaskin","Clima","运动胸衣Bra&紧身裤"],
+        "chanping":"全部训练产品"
+    },
+    {
+        "tui":"足球",
+        "img":"football-spectral-mode-nav.jpg",
+        "pro":["足球鞋","足球服饰","足球装备","Predator","X","NEMEZIZ"],
+        "chanping":"全部足球产品"
+    },
+    {
+        "tui":"篮球",
+        "img":"navbanner-harden.jpg",
+        "pro":["篮球鞋","篮球服饰","James Harden","Derrick Rose","Damian Lillard"],
+        "chanping":"全部篮球产品"
+    },
+    {
+        "tui":"户外",
+        "img":"170-80.jpg",
+        "pro":["户外鞋","户外服饰","户外装备"],
+        "chanping":"全部户外产品"
+    },
+    {
+        "tui":"其他运动",
+        "pro":["网球","高尔夫","羽毛球","游泳","排球","骑行"],
+        "chanping":"全部户外产品"
+    }
+]

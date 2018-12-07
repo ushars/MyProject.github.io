@@ -1,0 +1,173 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    background-color: #eeeff1;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    cursor: pointer;
+}
+
+.main ul{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    list-style: none;
+}
+.main ul li{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.main ul li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main ul li a img,.main ul li a div{
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.main ul li a img{
+    margin-left: 10px;
+    float: left;
+    width: 70px;
+}
+.main ul li a div{
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    width: 200px;
+}
+.main ul li a div p{
+    margin: 0;
+    width: 100%;
+}
+.main ul li a div p:nth-child(1){
+    color: #11a8bb;
+}
+.main ul li a div p:nth-child(2){
+    color: #11a8bb;
+    font-size: 16px;
+}
+.main ul li a div p:nth-child(3){
+    font-size: 12px;
+    color: #1e1e1e;
+}
+.main ul li a .right{
+    margin-right: 10px;
+    margin-top: 40px;
+    width: 10px;
+    float: right;
+}
+
+.main .personal{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    list-style: none;
+}
+.main .personal li{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+.main .personal li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #000;
+}
+.main .personal li a img,.main .personal li a span{
+    vertical-align: middle;
+    float: left;
+}
+.main .personal li a img:first-child{
+    margin-right: 10px;
+    width: 20px;
+}
+.main .personal li a img:last-child{
+    margin-top: 15px;
+    float: right;
+    margin-right: 10px;
+    width: 10px;
+}
+.main .personal li a mark{
+    background-color: #fff;
+    color: #11a8bb;
+}
+.main .card{
+    margin: 20px auto;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(98, 122, 154, 0.16);
+}
+.main .card-head{
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color:#11a8bb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main .card p{
+    margin: 0;
+    padding-left: 10px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.main .card p label{
+    height: 100%;
+    width: 80px;
+    display: inline-block;
+}
+.main .card p input{
+    border:none;
+}
+.main .money{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    line-height: 40px;
+    overflow: hidden;
+}
+.main .money span:first-child{
+    float: left;
+    margin-left: 10px;
+}
+.main .money span:last-child{
+    float: right;
+    margin-right: 10px;
+    color: #f00;
+}
+.main button{
+    margin: 40px auto 0;
+    display: block;
+    width: 95%;
+    height: 40px;
+    background-color: #ff9c00;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+}
+

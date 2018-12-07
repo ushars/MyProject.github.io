@@ -1,0 +1,113 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    background-color: #eeeff1;
+    color: #333;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #11a8bb;
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+}
+.header .arrow-left{
+    width: 20px;
+    height:30px;
+    position: absolute;
+    top:8px;
+    left:8px;
+    background:url("../image/arrow_left-white.png") no-repeat;
+    background-size:12px;
+}
+.header .rightPicture{
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    right:0;
+    background: url("../image/history@2x-white.png") no-repeat;
+    background-size: 22px;
+}
+.main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+.main li{
+    padding-left: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-bottom:1px solid #ddd;
+    overflow: hidden;
+    line-height:33px;
+}
+
+.main li a{
+    display: block;
+    color: #000;
+}
+.main li a .inspectpay{
+    padding-top: 7px;
+    float: left;
+    width: 200px;
+}
+.inspectpay p{
+    margin: 0;
+    width: 200px;
+}
+.inspectpay p:first-child{
+    font-family: "华文楷体";
+    font-size: 14px;
+}
+.inspectpay .payoff{
+    padding: 1px 8px;
+    border:1px solid red;
+    color: red;
+    border-radius:3px;
+    font-size: 12px;
+}
+.inspectpay .orderTime{
+    font-size: 14px;
+    color: #999999;
+}
+.main li .right{
+    float: right;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+.main li.totalCost{
+    margin-top: 20px;
+    height: 50px;
+}
+.main .totalCost .inspectpay-Cost{
+    padding-top: 8px;
+    float: left;
+    width: 200px;
+    font-family: "华文楷体";
+    font-size:14px;
+}
+.main .totalCost .right-Cost{
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: #f00;
+}

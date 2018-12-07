@@ -1,0 +1,37 @@
+[
+    {
+        "tui":"originals",
+        "img":"170-80-prophere-wje.jpg",
+        "pro":["鞋类","服装","附配件","新品上市","SUPERSTAR","STAN SMITH","NMD","EQT"],
+        "chanping":"全部adidas Originals系列"
+        
+    },
+    {
+        "tui":"athletics",
+        "img":"170-80-wuji.jpg",
+        "pro":["男子服饰","女子服饰","新品上市","Z.N.E","武及"],
+        "chanping":"全部adidas athletics系列"
+    },
+    {
+        "tui":"neo",
+        "img":"170-80-neo.jpg",
+        "pro":["鞋类","服装","附配件","新品上市","生来好动"],
+        "chanping":"全部adidas neo系列"
+    },
+    {
+        "tui":"McCartney",
+        "img":"smc-banner.jpg",
+        "pro":["鞋类","服饰","附配件","新品上市","生来好动"],
+        "chanping":"全部adidas McCartney系列"
+    },
+    {
+        "tui":"skateboard",
+        "img":"170x80-skateboarding.jpg",
+        "pro":["鞋类","服饰","新品上市"],
+        "chanping":"全部adidas skateboard系列"
+    },
+    {
+        "tui":"精选系列",
+        "pro":["PROPHERE","ADICOLOR","ACTION SPORT"]
+    }
+]

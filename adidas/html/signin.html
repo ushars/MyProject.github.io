@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阿迪达斯网站</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../plugins/LHYAlertView.css">
+    <link rel="stylesheet" href="../css/signin.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-box">
+            <div class="header-top-box">
+                <ul>
+                    <li><a>订单追踪</a></li>
+                    <li><a>邮件订阅</a></li>
+                    <li><a>在线客服 <i class="iconfont">&#xe676;</i></a></li>
+                    <li id="user"><a>已登录</a></li>
+                    <li id="signIn"><a href="html/signin.html">登陆 <i class="iconfont">&#xe718;</i></a></li>
+                    <li id="exit"><a>注销用户</a></li>
+                </ul>
+            </div>
+            <nav>
+                <h1><a href="../index.html"><img src="../images/logo.png"></a></h1>
+                <ul class="nav-tab">
+                    <li>
+                        <a>男子</a>
+                        <div class="boy"></div>
+                    </li>
+                    <li>
+                        <a>女子</a>
+                        <div class="girl"></div>
+                    </li>
+                    <li>
+                        <a>童装</a>
+                        <div class="children"></div>
+                    </li>
+                    <span class="line"></span>
+                    <li>
+                        <a>运动</a>
+                        <div class="sports"></div>
+                    </li>
+                    <li>
+                        <a>品牌</a>
+                        <div class="brand"></div>
+                    </li>
+                    <span class="line"></span>
+                    <li>
+                        <a href="../html/customize.html">miadidas定制</a>
+                        <div class="customized"></div>    
+                    </li>
+                </ul>
+                <div class="nav-search">
+                    <form>
+                        <i class="iconfont">&#xe623;</i>
+                        <input type="search" placeholder="搜索">
+                        <i class="iconfont">&#xe61d;</i>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="login-box">
+            <ul>
+                <li><a href="javascript:history.go(-1)">返回</a></li>
+                <li>|</li>
+                <li><a href="sign.html">登陆</a></li>
+                <li>|</li>
+                <li><a href="register.html">注册</a></li>
+            </ul>
+            <div class="login-left">
+                <h3>登陆</h3>
+                <form class="myForm" action="javascript:;">
+                    <section class="form-item" data-msg="账号格式不匹配（只能包含字母、数字、下划线且字符个数不少于5个不多于10个）">
+                        <input id="username" type="text" placeholder="请输入账号">
+                    </section>
+                    <section class="form-item" data-msg="密码格式不匹配（只能包含字母、数字、下划线，且不低于6个字符）">
+                        <input id="firPassword" type="password" placeholder="请输入密码">
+                    </section>
+                    
+                    <button type="button" class="btn btn-sign">登陆</button>
+                </form>
+            </div>
+            <div class="login-right">
+                <p>adiCLUB会员相关权益</p>
+                <p>成为adiCLUB会员并完善个人信息，即可享受更多权益 ：</p>
+                <ul>
+                    <li> 安全快捷支付订单</li>
+                    <li>随时跟踪订单状态</li>
+                    <li>即时收到打折优惠及新品发布信息</li>
+                    <li>全场免普通达运费和七天无理由退换货服务</li>
+                    <li>消费即可获得积分，铜牌以上会员即可积分兑换优惠券</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <ul>
+                <li>联系我们</li>
+                <li><i class="iconfont">&#xe676;</i> 在线客服</li>
+                <li><i class="iconfont">&#xe605;</i> 400-999-5999</li>
+                <li><i class="iconfont">&#xe661;</i> service@adidas.com</li>
+                <li><i class="iconfont">&#xe670;</i> 9:00-22:00</li>
+                <li>订单追踪</li>
+            </ul>
+        </div>
+        <div class="footer-con">
+            <ul class="con-box">
+                <li class="title">产品</li>
+                <li><a href="">鞋类</a></li>
+                <li><a href="">服装</a></li>
+                <li><a href="">配件</a></li>
+                <li><a href="">新品上市</a></li>
+                <li><a href="">全部折扣</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">运动</li>
+                <li><a href="">跑步</a></li>
+                <li><a href="">训练</a></li>
+                <li><a href="">足球</a></li>
+                <li><a href="">篮球</a></li>
+                <li><a href="">户外</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">帮助中心</li>
+                <li><a href="">关于员工</a></li>
+                <li><a href="">尺码表</a></li>
+                <li><a href="">adiCLUB会员</a></li>
+                <li><a href="">门店查询</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">企业社会责任</a></li>
+                <li><a href="">Confirmed app</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">网站政策</li>
+                <li><a href="">使用条款</a></li>
+                <li><a href="">隐私声明</a></li>
+                <li><a href="">物流配送规则</a></li>
+                <li><a href="">退货规则</a></li>
+                <li><a href="">定制和印制服务条款</a></li>
+                <li><a href="">adiCLUB会员规则</a></li>
+            </ul>
+            <ul class="con-box">
+                <li class="title">关注我们</li>
+                <span><a><i class="iconfont">&#xe639;</i></a></span>
+                <span><a><i class="iconfont">&#xe6cd;</i></a></span>
+            </ul>
+            <ul class="con-other">
+                <li>我们接受下列付款方式：</li>
+                <li><a href=""><i class="iconfont">&#xe61a;</i></a></li>
+                <li><a href=""><i class="iconfont">&#xe62f;</i></a></li>
+                <li><a href=""><i class="iconfont">&#xe68f;货到付款</i></a></li>
+            </ul>
+            <ul class="con-other">
+                <li>企业团购热线及邮箱：</li>
+                <li>团购热线：021-2525 6881</li>
+                <li>团购邮箱：adidas.b2b@adidas.com</a></li>
+                <li>（仅限采购金额10万以上）</li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-con">
+                <div class="footer-left com">
+                    <span><i></i>中国 </span>
+                    <span> 隐私声明 </span>
+                    <span> 使用条款 </span>
+                    <span> 网站地图 </span>
+                </div>
+                <div class="footer-right com">
+                        <span> 苏ICP备14048805号-1  </span>
+                        <span><i></i>© 2017 adida </span>
+                        <span><i></i>苏公网安备32059002001401号 </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../plugins/LHYAlertView.js"></script>
+    <script src="../js/function.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/signIn.js"></script>
+</body>
+</html>

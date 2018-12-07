@@ -1,0 +1,139 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    background-color: #eeeff1;
+    color: #666;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main li{
+
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    border-bottom:1px solid #ddd;
+    overflow: hidden;
+}
+.main li a{
+    display: block;
+    color: #000;
+    padding-left: 15px;
+}
+.main li a span{
+    font-size: 14px;
+}
+.main li img{
+    float: right;
+    padding-right: 10px;
+    padding-top: 20px;
+    width:25px;
+}
+.main .date{
+    margin: 15px 0;
+    padding-top: 20px;
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+.main .date input{
+    background: url("../img/schedule.png") no-repeat 5px center;
+    background-size: 25px;
+    text-indent: 35px;
+    margin: 0 auto;
+    width:calc(100% - 20px);
+    height:40px;
+    border:1px solid  #11a8bb;
+    border-radius: 5px;
+    display: block;
+}
+.main .date p{
+    padding: 10px 10px;
+    margin: 0;
+    color: #f00;
+    font-size: 12px;
+}
+
+.main .card{
+    margin: 0 auto;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(98, 122, 154, 0.16);
+}
+.main .card .card-head{
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #11a8bb;
+    line-height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+.main .card p{
+    padding-left: 10px;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.main .card p label{
+    display: inline-block;
+    height: 100%;
+    width: 80px;
+}
+.main .card p input{
+    border:none;
+    height: 30px;
+}
+.main .pay-word{
+    margin: 20px 10px;
+    color: #f00;
+    font-size: 12px;
+}
+.main .pay-money{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    line-height: 40px;
+    overflow: hidden;
+}
+.main .pay-money span:first-child{
+    padding-left: 15px;
+    float: left;
+}
+.main .pay-money span:last-child{
+    padding-right: 15px;
+    float: right;
+    color: #f00;
+}
+.main button{
+    margin: 40px auto;
+    display: block;
+    width: calc(100% - 20px);
+    height: 40px;
+    line-height: 40px;
+    background-color: #ff9c00;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+}

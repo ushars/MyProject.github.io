@@ -1,0 +1,100 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    height: 100%;
+    background-color: #eeeff1;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    cursor: pointer;
+}
+.main .personal{
+    padding: 20px 0;
+    width: 100%;
+    background-color: #64d0e7;
+}
+.personal a{
+    display: block;
+    text-decoration: none;
+}
+.personal-information{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.personal-information p img,.personal-information p span{
+    vertical-align: middle;
+}
+.personal-information p:first-of-type{
+    margin: 10px;
+    color: #fff;
+}
+.personal-information p:last-child{
+    margin: 0 auto;
+    width: 150px;
+    height: 25px;
+    background-color: #91dfee;
+    border-radius: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #008a9b;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+ul li{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    line-height: 50px;
+}
+ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+ul li img{
+    width: 20px;
+}
+ul li span{
+    padding-left: 8px;
+}
+ul li a img.picture{
+    width: 20px;
+}
+ul li img:last-child{
+    position: absolute;
+    top:15px;
+    right:10px;
+    width: 10px;
+}
+ul li img:first-child{
+    vertical-align: middle;
+}
+.main button{
+    margin: 40px auto 80px;
+    display: block;
+    padding: 10px;
+    width: 96%;
+    background-color: #11a8bb;
+    border:none;
+    border-radius: 3px;
+    color: #fff;
+}

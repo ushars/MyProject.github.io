@@ -1,0 +1,44 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    background-color: #eeeff1;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #11a8bb;
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+}
+.header .arrow-left{
+    width: 20px;
+    height:30px;
+    position: absolute;
+    top:8px;
+    left:8px;
+    background:url("../image/arrow_left-white.png") no-repeat;
+    background-size:12px;
+}
+.header .rightPicture{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    right:0;
+    background: url("../image/arrow_right-consult-white.png") no-repeat;
+    background-size: 40px;
+}

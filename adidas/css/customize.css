@@ -1,0 +1,319 @@
+.flash-box {
+    margin: 0 auto;
+    min-width: 1100px;
+}
+.lhy-flash-prev-btn,.lhy-flash-next-btn{
+    display: none;
+}
+.lhy-flash-pagination{
+    width: 230px;
+    overflow: hidden;
+    z-index: 0;
+}
+.lhy-flash-pagination-item{
+    width: 60px;
+    height: 4px;
+    border-radius: 0;
+    background-color: #666;
+    transition:all .6s linear;
+}
+.lhy-flash-pagination-item:nth-child(1){
+    float: left;
+}
+.lhy-flash-pagination-item:nth-child(2){
+    float: right;
+}
+.lhy-flash-pagination-item.show{
+    background-color: #000;
+    animation: resizeWidth 1s linear forwards;
+}
+@keyframes resizeWidth{
+    to{
+        width: 120px;
+    }
+}
+
+.pc-title{
+    padding:100px 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.pc-title h1{
+    font-size: 36px;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+.pc-title p{
+    margin-top:10px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* TAB 切换 */
+.tab-main{
+    height: 1000px;
+    box-sizing: border-box;
+    padding-bottom:200px;
+    width: 100%;
+    position: relative;
+}
+.tab-swiper-box{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.tab-swiper{
+    margin:0 auto;
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    line-height:80px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+.swiper-slide{
+    float: left;
+    width: 33%;
+    height: 100%;
+    color:#c6c6c6;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+.swiper-slide.choose-tab{
+    background-color: #fff;
+    color:#000;
+}
+.tab-content-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.tab-content{
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.show-tab{
+    display: block;
+}
+.con-tab{
+    
+    margin: 10px 5px;
+    width: 24%;
+    height: 250px;
+    float: left;
+    padding:20px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.con-tab-image{
+    width: 98%;
+
+}
+.con-tab-image img{
+    width: 100%;
+}
+.con-tab p:nth-child(1){
+    font-size: 12px;
+}
+.con-tab > p:nth-child(2){
+    text-align: center;
+    padding:10px 20px;
+    display: inline-block;
+    transform: translateY(20px);
+    transition: all 0.25s linear;
+    opacity: 1;
+}
+.con-tab:hover > p:nth-child(2){
+    transform: translateY(0px);
+    opacity: 0;
+}
+.con-tab > p:nth-child(3){
+    margin-top: 10px;
+    padding:10px 20px;
+    display: inline-block;
+    transform: translateY(20px);
+    transition: all 0.25s linear;
+    opacity: 0;
+}
+.con-tab:hover > p:nth-child(3){
+    transform: translateY(-20px);
+    border:1px solid #ccc;
+    opacity: 1;
+}
+.con-tab > p:nth-child(3):hover{
+    background-color: #000;
+    color:#fff;
+    transition: all 0.25s linear;
+    animation: resizeColor 0.3s linear;
+    
+}
+@keyframes resizeColor{
+    to{
+        background-color: #000;
+    }
+}
+.branner-box{
+    width: 100%;
+    
+}
+.branner-box > div{
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+    color:#fff;
+    background-color: #000;
+}
+.branner-box > div h2{
+    letter-spacing: 6px;
+    font-size:26px;
+    font-weight: normal;
+}
+.branner-box > div p{
+    letter-spacing: 4px;
+}
+.branner-box .branner{
+    background: url(../images/customize/miadidas-pc_02.jpg) center bottom /cover;
+}
+.branner-box .branner-image-box{
+    width: 1000px;
+    margin:0 auto;
+}
+.branner-box .branner-image{
+    display: inline-block;
+    width: 30%;
+    padding: 0 15px;
+    position: relative;
+    
+}
+.branner-image.selected-image{
+    opacity: 0.5;
+}
+.branner-box .branner-image span{
+    display: inline-block;
+    width:200px;
+    padding: 10px 10px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:50px;
+    font-size:12px;
+    background-color: #fff;
+    color:#000;
+    letter-spacing: 5px;
+}
+.action-branner{
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    min-width: 1100px;
+}
+.action-branner-image{
+    
+    width: 100%;
+}
+.action-branner-image img{
+    width: 100%;
+    min-height: 700px;
+    
+}
+.scroller-wrap{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top:0;
+    left:10%;
+    overflow: hidden;
+}
+.wrapper{
+    width:calc(8 * 500px);
+    height: 100%;
+    font-size: 0;
+    position: absolute;
+    top:0;
+    left:-500px;
+}
+.wrapper img{
+    width: 500px;
+    height: 100%; 
+    vertical-align: middle;
+}
+.btn{
+    display: none;
+}
+.pagenation{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:20px;
+    cursor: pointer;
+}
+.pagenation-item{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 6px;
+}
+.pagenation-item.show{
+    background: #fff;
+}
+.customize-carousel-tit{
+    position: absolute;
+    top:25%;
+    left:60%;
+}
+.customize-carousel-tit h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.customize-carousel-tit p{
+    padding: 6% 0 14% 0;
+    font-size: 18px;
+}
+.customize-carousel-tit a{
+    margin-top: 10px;
+    width: 200px;
+    display: block;
+    padding:20px 20px;
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    border:1px solid #000;
+}
+.customize-carousel-tit a:last-child{
+    background-color: #fff;
+    color: #000;
+}
+.article-info{
+    width: 100%;
+    background-color: #fafafa;
+}
+.article-info-box{
+    margin-top:20px;
+    padding:40px 0;
+    width: 100%;
+    text-align: center;
+}
+.article-info-con{
+    display: inline-block;
+    width: 30%;
+}
+.article-info-con span{
+    margin:0 auto;
+    width: 100px;
+    display: block;
+    padding:10px 20px;
+    border:1px solid #000;
+}

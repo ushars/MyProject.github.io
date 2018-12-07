@@ -1,0 +1,70 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    background-color: #eeeff1;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #11a8bb;
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+}
+.header .arrow-left{
+    width: 20px;
+    height:30px;
+    position: absolute;
+    top:8px;
+    left:8px;
+    background:url("../image/arrow_left-white.png") no-repeat;
+    background-size:12px;
+}
+.header .rightPicture{
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    right:0;
+    background: url("../image/home@2x.png") no-repeat;
+    background-size: 22px;
+}
+.main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+.main li{
+
+    width: 100%;
+    background-color: #fff;
+    line-height: 50px;
+    border-bottom:1px solid #ddd;
+    overflow: hidden;
+}
+.main li a{
+    padding-left: 15px;
+    display: block;
+    color: #000;
+}
+.main li img{
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}

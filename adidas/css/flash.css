@@ -1,0 +1,72 @@
+@charset "utf-8";
+.scroll{
+    width: 100%;
+}
+.flash-wrapper {
+    position: relative;
+}
+.flash-wrapper .btn{
+    position: absolute;
+    top:45%;
+    color:#fff;
+    font-size: 80px;
+    cursor: pointer;
+}
+.flash-wrapper .btn:hover{
+    color:#000;
+}
+.flash-wrapper .prev {
+    left:90px;
+}
+.flash-wrapper .next{
+    right:90px;
+}
+.flash-wrapper .idot-box {
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    bottom:20px;
+    border-radius: 30px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.flash-wrapper .idot {
+    display: inline-block;
+    width: 30px;
+    height: 5px;
+    background: rgb(130, 135, 144);
+    border: 1px solid rgb(130, 135, 144);
+    margin: 0 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all .25s linear;
+}
+.flash-wrapper .idot:hover {
+    background: rgb(2, 95, 142);
+    border: 1px solid #fff;
+}
+.flash-wrapper .idot.selected {
+    background: #000;
+    border: 1px solid #fff;
+}
+.flash-wrapper img {
+    width: 100%;
+    vertical-align: middle;
+}
+.scroll-flash-wrapper{
+    overflow: hidden;
+    width: 100%;
+}
+.scroll-flash-wrapper .img-box {
+    width: calc(6 * 100%);
+    font-size: 0;
+    position: absolute;
+    left:0;
+    top:0;
+    /* height: 550px; */
+}
+.scroll-flash-wrapper img {
+    width: calc(100% / 6);
+    height: 100%;
+}

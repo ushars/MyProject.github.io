@@ -1,0 +1,44 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    margin: 0;
+    font: 16px sans-serif;
+}
+body{
+    background-color: #eeeff1;
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button,a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main li{
+
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    border-bottom:1px solid #ddd;
+    overflow: hidden;
+}
+.main li a{
+    display: block;
+    color: #000;
+    padding-left: 15px;
+}
+.main li img{
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
