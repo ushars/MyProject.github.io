@@ -81,7 +81,7 @@ function getTabNav(url,getEl){
                         <div class="common-tab">
                                 <p><a><i class="iconfont">&#xe618;</i>${item.tui}</a></p>
                                 <ul>
-                                    <li><a href=""><img src="../images/${item.img}"></a></li>
+                                    <li><a href=""><img src="adidas/images/${item.img}"></a></li>
                                     ${(function(){
                                         var Str = "";
                                         item.pro.forEach(function(list){
@@ -237,7 +237,7 @@ function feature(url,getEl,imageUrl){
                 var oFeatureBox = Array.from(getSec(".feature-box",true));
                 oFeatureBox.forEach(function(feature){
                     feature.onclick = function(){
-                        location.href = "adidas/html/ultraboostclima.html";
+                        location.href = "../html/ultraboostclima.html";
                     }
                 });
                 
@@ -401,7 +401,7 @@ function detailLoading(getName,hashName){
     oGetName.forEach(function(month,index){
         month.dataset.index = index;
         month.onclick = function(){
-            window.location.href = `adidas/html/details.html?${hashName}=${month.dataset.index}`;
+            window.location.href = `../html/details.html?${hashName}=${month.dataset.index}`;
         }
     });
 }
