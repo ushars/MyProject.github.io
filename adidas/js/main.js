@@ -16,7 +16,7 @@
     getTabNav("json/customizedinfo.json",".customized");
 
     scroll();
-    feature("json/featureinfo.json",".feature","images/");
+    feature("adidas/json/featureinfo.json",".feature","images/");
     
     detailLoading('.month section',"mon");
     detailLoading('.week section',"week");
