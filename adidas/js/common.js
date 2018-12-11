@@ -8,10 +8,10 @@
     // 儿童
     getTab("../json/kidsinfo.json",".children");
     // 运动
-    getTabNav("../json/sportsinfo.json",".sports");
+    getTabNav("../json/sportsinfo.json",".sports","../images/");
     //品牌
-    getTabNav("../json/brandinfo.json",".brand");
+    getTabNav("../json/brandinfo.json",".brand","../images/");
     //定制
-    getTabNav("../json/customizedinfo.json",".customized");
+    getTabNav("../json/customizedinfo.json",".customized","../images/");
     signLoading();
 })();
