@@ -81,7 +81,7 @@ function getTabNav(url,getEl){
                         <div class="common-tab">
                                 <p><a><i class="iconfont">&#xe618;</i>${item.tui}</a></p>
                                 <ul>
-                                    <li><a href=""><img src="../images/${item.img}"></a></li>
+                                    <li><a href=""><img src="images/${item.img}"></a></li>
                                     ${(function(){
                                         var Str = "";
                                         item.pro.forEach(function(list){
